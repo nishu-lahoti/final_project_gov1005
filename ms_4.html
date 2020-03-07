@@ -369,6 +369,8 @@ summary {
 </div>
 
 
+<p>For the time being, I am moving forwards on a project which relates NBA Draft Order with a player’s total career earnings. In order to make this analysis, I need to collect info for each player’s draft order and their career earnings by year for their years in the league. I may limit this analysis to players after 2014, to give 5 years worth of total review.</p>
+<p>I have gathered two datasets to begin this analysis. The first dataset is collected from data.world and it contains upwards of 9,500 rows of information on every player in the league, their draft order, their draft year, and their average points per game in the league. The second dataset is a collection of salary figures for current players in the league. My next step is to figure out how to join these datasets, which will most likely happen on players first names and continue down the path of building a cohesive dataset which can compare the likelihood of players later in the draft seeing top earning potential during their career.</p>
 <pre><code>## # A tibble: 15 x 22
 ##       x1 player_name team_abbreviati…   age player_height player_weight college
 ##    &lt;dbl&gt; &lt;chr&gt;       &lt;chr&gt;            &lt;dbl&gt;         &lt;dbl&gt;         &lt;dbl&gt; &lt;chr&gt;  
